@@ -33,6 +33,9 @@ treb7uchet
 
 In this example, the calibration values of these four lines are 12, 38, 15, and 77. Adding these together produces 142.
 Consider your entire calibration document. What is the sum of all of the calibration values?
+
+
+==========> Add your input in the github repo, in the `inputs` folder. Path: `inputs/pb_1_input`
 """
 
 
@@ -64,7 +67,7 @@ def calibrate_doc(document: str) -> int:
 
 
 # Answer to part 1
-print(f"Answer to part 1: {calibrate_doc('pb_1_input')}")
+print(f"Answer to part 1: {calibrate_doc('inputs/pb_1_input')}")
 
 """
 --- Part Two ---
@@ -135,5 +138,5 @@ def recalibrate_doc(document: str) -> int:
 
 
 # Answer to part 2
-print(f"Answer to part 1: {recalibrate_doc('pb_1_input')}")
+print(f"Answer to part 1: {recalibrate_doc('inputs/pb_1_input')}")
 
